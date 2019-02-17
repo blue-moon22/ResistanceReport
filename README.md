@@ -2,7 +2,7 @@
 
 ### Instructions
 
-Clone Directory
+Clone repository
 
 Install [npm http-server](https://www.npmjs.com/package/http-server)
 
