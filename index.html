@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script language="JavaScript" type = "text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script language="JavaScript" type = "text/javascript" src="js/Chart.min.js"></script>
+    <link rel="stylesheet" type = "text/css" href="js/bootstrap.min.js">
+    <link rel="stylesheet" type = "text/css" href="css/main.css">
+    <title>Website</title>
+  </head>
+
+  <body>
+    <div class="dropdown">
+      <select id="dropdown-country" name="Country"></select>
+    </div>
+    <div class="dropdown">
+      <select id="dropdown-species" name="Species"></select>
+    </div>
+    <div class="linechart">
+      <canvas id="lineChart"></canvas>
+    </div>
+    <div id="buttons">
+      <button id="resistantData">Add/Remove Resistant Data</button>
+      <button id="intermediateData">Add/Remove Intermediate Data</button>
+      <button id="susceptibleData">Add/Remove Susceptible Data</button>
+    </div>
+    <div class="wrapper">
+      <div class="piechart">
+        <canvas id="pieChart"></canvas>
+      </div>
+      <div class="barchart">
+        <form id="variables">
+          <input type="radio" name="split" id="gender" value="Gender" checked> Gender<br>
+          <input type="radio" name="split" id="age" value="Age.Group"> Age Group<br>
+          <input type="radio" name="split" id="speciality" value="Speciality"> Speciality<br>
+          <input type="radio" name="split" id="source" value="Source">Source<br>
+          <input type="radio" name="split" id="patient" value="In...Out.Patient">In/Out Patient<br>
+          <input type="radio" name="split" id="state" value="State">State
+        </form>
+        <canvas id="barChart"></canvas>
+      </div>
+    </div>
+
+    <script>
+
+    // Display country dropdown
+    var dropdown = $('#dropdown-country');
+    dropdown.empty();
+    dropdown.append('<option selected="true" disabled>Choose Country</option>');
+    dropdown.prop('selectedIndex', 0);
+
+    // Display species dropdown
+    var subdropdown = $('#dropdown-species');
+    subdropdown.empty();
+    subdropdown.append('<option selected="true" disabled>Choose Species</option>');
+
+    // Update options for country dropdown
+    function fetchDropdownJSONFile(path, dropdown) {
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var data = JSON.parse(this.responseText);
+                var count = Object.keys(data).length;
+                for (var i = 0; i < count; i++) {
+                  dropdown.append($('<option></option>').text(Object.keys(data)[i]));
+                }
+            }
+        }
+        httpRequest.open('GET', path);
+        httpRequest.send()
+      };
+    fetchDropdownJSONFile('js/dropdown.json', dropdown);
+
+    // Update options for species when country option clicked
+    var dropdownElement = document.getElementById('dropdown-country');
+    dropdownElement.addEventListener('click', function() {
+      var countryValue = dropdownElement.options[dropdownElement.selectedIndex].text;
+
+      if (countryValue != "Choose Country") {
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var data = JSON.parse(this.responseText);
+                var count = data[countryValue].length;
+                subdropdown.empty().append('<option selected="true" disabled>Choose Species</option>');
+                for (var i = 0; i < count; i++) {
+                  subdropdown.append($('<option></option>').text(data[countryValue][i]));
+                }
+            }
+        }
+        httpRequest.open('GET', 'js/dropdown.json');
+        httpRequest.send()
+      }
+    });
+
+    var ctx0 = document.getElementById('lineChart').getContext('2d');
+    line_config = {
+      type: 'line',
+      data: {
+        labels: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]
+      },
+      options: {
+        spanGaps: true,
+      }
+    };
+    Line = new Chart(ctx0, line_config);
+
+    var ctx = document.getElementById('pieChart').getContext('2d');
+    var newArr;
+
+    pie_config = {
+      type: 'pie',
+      data: {
+        label: ['Susceptible', 'Intermediate', 'Resistant'],
+        labels: []
+      },
+      options: {
+        responsive: true,
+        legend: {
+          display: true,
+          labels: {
+            generateLabels: function(chart) {
+              var data = chart.data;
+              if (data.labels.length && data.datasets.length) {
+                return data.labels.map(function(label, i) {
+                  var fill = data.allColors[i];
+                  return {
+                    text: label,
+                    fillStyle: fill,
+                    index: i
+                  };
+                });
+              } else {
+              return [];
+              }
+            }
+          }
+        },
+        //onClick: chartClickEvent
+      }
+    };
+    Pie = new Chart(ctx, pie_config);
+
+    var ctx2 = document.getElementById('barChart').getContext('2d');
+    document.getElementById('barChart').height = 400;
+    bar_config = {
+      type: 'bar',
+      datasets: [{
+        data: []
+      }],
+      options: {
+        responsive: true,
+        legend: { display: false },
+        title: {
+          display: true,
+          text: ''
+        }
+      }
+    };
+    Bar = new Chart(ctx2, bar_config);
+
+
+    // Update line chart when species clicked
+    var subdropdownElement = document.getElementById('dropdown-species');
+    subdropdownElement.addEventListener('change', function() {
+
+      var countryValue = dropdownElement.options[dropdownElement.selectedIndex].text;
+      var speciesValue = subdropdownElement.options[subdropdownElement.selectedIndex].text;
+      if (countryValue != "Choose Country" && speciesValue != "Choose Species"){
+        var lineFileName = 'data/' + countryValue.replace(/ /g, '.') + '_' + speciesValue.replace(/ /g, '.') + '.json';
+
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var data = JSON.parse(this.responseText);
+
+                line_config.data.datasets = data.datasets;
+
+                Line.update();
+            }
+        }
+        httpRequest.open('GET', lineFileName);
+        httpRequest.send();
+      }
+    });
+
+    // Get year and create pie cjart when line chart is clicked
+    document.getElementById('lineChart').addEventListener('click', function(evt) {
+
+      pie_config.data.datasets = [];
+      pie_config.data.bin_resistant = [];
+      pie_config.data.bin_intermediate = [];
+      pie_config.data.bin_susceptible = [];
+      pie_config.data.label = ['Susceptible', 'Intermediate', 'Resistant'];
+      Pie.update();
+
+      var activePoints = Line.getElementsAtEvent(evt);
+      if (typeof activePoints[0] !== 'undefined') {
+        selectedYear = line_config.data.labels[activePoints[0]['_index']];
+
+        countryValue = dropdownElement.options[dropdownElement.selectedIndex].text;
+        speciesValue = subdropdownElement.options[subdropdownElement.selectedIndex].text;
+
+        var pieFileName = 'data/' + countryValue.replace(/ /g, '.') + '_' + speciesValue.replace(/ /g, '.') + '_' + selectedYear + '.json'
+
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var data = JSON.parse(this.responseText);
+
+            if (data.Susceptible.percentage !== null) {
+              if (data.Susceptible.percentage.constructor !== Array) {
+                data.Susceptible.percentage = [data.Susceptible.percentage];
+                data.Susceptible.Drug = [Object.keys(data.Susceptible.Drug)];
+                data.Susceptible.backgroundColor = [data.Susceptible.backgroundColor];
+              };
+            };
+            if (data.Intermediate.percentage !== null) {
+              if (data.Intermediate.percentage.constructor !== Array) {
+                data.Intermediate.percentage = [data.Intermediate.percentage];
+                data.Intermediate.Drug = [Object.keys(data.Intermediate.Drug)];
+                data.Intermediate.backgroundColor = [data.Intermediate.backgroundColor];
+              };
+            };
+            if (data.Resistant.percentage !== null) {
+              if (data.Resistant.percentage.constructor !== Array) {
+                data.Resistant.percentage = [data.Resistant.percentage];
+                data.Resistant.Drug = [Object.keys(data.Resistant.Drug)];
+                data.Resistant.backgroundColor = [data.Resistant.backgroundColor];
+              };
+            };
+            var susceptible_drugs = Object.keys(data.Susceptible.Drug);
+            var intermediate_drugs = Object.keys(data.Intermediate.Drug);
+            var resistant_drugs = Object.keys(data.Resistant.Drug);
+            pie_config.data.datasets = [{
+              data: data.Susceptible.percentage,
+              labels: susceptible_drugs,
+              weigth: data.Susceptible.weight,
+              backgroundColor: data.Susceptible.backgroundColor
+            }, {
+              data: data.Intermediate.percentage,
+              labels: intermediate_drugs,
+              weight: data.Intermediate.weight,
+              backgroundColor: data.Intermediate.backgroundColor
+            }, {
+              data: data.Resistant.percentage,
+              labels: resistant_drugs,
+              weight: data.Resistant.weight,
+              backgroundColor: data.Resistant.backgroundColor
+            }];
+
+            function onlyUnique(value, index, self) {
+              return self.indexOf(value) === index;
+            }
+            var allLabels = susceptible_drugs.concat(intermediate_drugs, resistant_drugs);
+            var allLabelsFiltered = allLabels.filter(function (el) {
+              return el != null;
+            });
+
+            var allColours = data.Susceptible.backgroundColor.concat(data.Intermediate.backgroundColor, data.Resistant.backgroundColor);
+
+            var allColoursFiltered = allColours.filter(function (el) {
+              return el != null;
+            });
+
+            pie_config.data.labels = allLabelsFiltered.filter(onlyUnique);
+            pie_config.data.allColors = allColoursFiltered.filter(onlyUnique);
+
+            Pie.update();
+            document.getElementById('buttons').style.visibility = 'visible';
+          }
+        }
+        httpRequest.open('GET', pieFileName);
+        httpRequest.send();
+
+      };
+
+    });
+
+      // Add/Remove resistant data
+      document.getElementById('resistantData').addEventListener('click', function() {
+
+        if (pie_config.data.label.includes("Resistant", 0)) {
+          pie_config.data.label.pop();
+          pie_config.data.bin_resistant = pie_config.data.datasets[pie_config.data.datasets.length-1];
+          pie_config.data.datasets.pop();
+
+        } else {
+          pie_config.data.label.push("Resistant")
+          pie_config.data.datasets.push(pie_config.data.bin_resistant);
+          pie_config.data.bin_resistant = [];
+        };
+        Pie.update();
+      });
+
+      // Add/Remove intermediate data
+      document.getElementById('intermediateData').addEventListener('click', function() {
+
+        if (pie_config.data.label.includes("Intermediate", 0)) {
+
+          if (pie_config.data.label.includes("Resistant", 0) && pie_config.data.label.includes("Susceptible", 0)) {
+            pie_config.data.label.splice(1, 1);
+            pie_config.data.bin_intermediate = pie_config.data.datasets[1];
+            pie_config.data.datasets.splice(1, 1);
+          } else if (!pie_config.data.label.includes("Resistant", 0) && !pie_config.data.label.includes("Susceptible", 0)) {
+            pie_config.data.label.shift();
+            pie_config.data.bin_intermediate = pie_config.data.datasets[0];
+            pie_config.data.datasets.shift();
+          } else if (!pie_config.data.label.includes("Resistant", 0)){
+            pie_config.data.label.pop();
+            pie_config.data.bin_intermediate = pie_config.data.datasets[pie_config.data.datasets.length-1];
+            pie_config.data.datasets.pop();
+          } else if (!pie_config.data.label.includes("Susceptible", 0)){
+            pie_config.data.label.shift();
+            pie_config.data.bin_intermediate = pie_config.data.datasets[0];
+            pie_config.data.datasets.shift();
+          }
+
+        } else {
+
+          if (pie_config.data.label.includes("Resistant", 0) && pie_config.data.label.includes("Susceptible", 0)) {
+            pie_config.data.label.splice(1, 0, "Intermediate");
+            pie_config.data.datasets.splice(1, 0, pie_config.data.bin_intermediate);
+            pie_config.data.bin_intermediate = [];
+          } else if (!pie_config.data.label.includes("Resistant", 0) && !pie_config.data.label.includes("Susceptible", 0)) {
+            pie_config.data.label.push("Intermediate");
+            pie_config.data.datasets.push(pie_config.data.bin_intermediate);
+            pie_config.data.bin_intermediate = [];
+          } else if (!pie_config.data.label.includes("Resistant", 0)) {
+            pie_config.data.label.push("Intermediate");
+            pie_config.data.datasets.push(pie_config.data.bin_intermediate);
+            pie_config.data.bin_intermediate = [];
+          } else if (!pie_config.data.label.includes("Susceptible", 0)) {
+            pie_config.data.label.unshift("Intermediate");
+            pie_config.data.datasets.unshift(pie_config.data.bin_intermediate);
+            pie_config.data.bin_intermediate = [];
+          }
+        };
+        Pie.update();
+      });
+
+      // Add/Remove susceptible data
+      document.getElementById('susceptibleData').addEventListener('click', function() {
+
+        if (pie_config.data.label.includes("Susceptible", 0)) {
+          pie_config.data.label.shift();
+          pie_config.data.bin_susceptible = pie_config.data.datasets[0];
+          pie_config.data.datasets.shift();
+
+        } else {
+          pie_config.data.label.unshift("Susceptible");
+          pie_config.data.datasets.unshift(pie_config.data.bin_susceptible);
+          pie_config.data.bin_susceptible = [];
+        };
+        Pie.update();
+      });
+
+
+      // Click on segment
+      document.getElementById('pieChart').addEventListener('click', function(evt) {
+
+        //document.getElementById('variables').style.visibility = 'visible';
+
+        bar_config.data.datasets = [];
+        bar_config.data.labels = [];
+        Bar.update();
+
+        var activePoints = Pie.getElementsAtEvent(evt);
+        var activePoints2 = Pie.getElementAtEvent(evt);
+
+        if ( activePoints[0] !== undefined | activePoints2[0] !== undefined ){
+          var datasetIndex = activePoints2[0]._datasetIndex;
+          var breakpoints = ["Susceptible", "Intermediate", "Resistant"];
+          breakpoint = breakpoints[datasetIndex];
+          var segmentIndex = activePoints[0]._index;
+          antibiotic = pie_config.data.datasets[datasetIndex].labels[segmentIndex];
+          splitFileName = 'data/' + countryValue.replace(/ /g, '.') + '_' + speciesValue.replace(/ /g, '.') + '_' + selectedYear + '.json'
+
+
+        }
+      });
+
+      document.getElementById('variables').addEventListener('click', function() {
+
+        var httpRequest = new XMLHttpRequest();
+        httpRequest.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var data = JSON.parse(this.responseText);
+
+
+                  if (document.getElementById('gender').checked) {
+                    var variable = document.getElementById('gender').value;
+                  } else if (document.getElementById('source').checked) {
+                    var variable = document.getElementById('source').value;
+                  } else if (document.getElementById('speciality').checked) {
+                    var variable = document.getElementById('speciality').value;
+                  } else if (document.getElementById('patient').checked) {
+                    var variable = document.getElementById('patient').value;
+                  } else if (document.getElementById('state').checked) {
+                    var variable = document.getElementById('state').value;
+                  } else if (document.getElementById('age').checked) {
+                    var variable = document.getElementById('age').value;
+                  }
+
+                  bar_config.data.labels = data[breakpoint].Drug[antibiotic][variable][variable];
+                  bar_config.data.datasets = [{
+                    data: data[breakpoint].Drug[antibiotic][variable].percentage,
+                    backgroundColor: "#1B9E77"
+                  }];
+
+                  Bar.update();
+                }
+              }
+              httpRequest.open('GET', splitFileName);
+              httpRequest.send();
+            });
+
+
+
+
+    </script>
+  </body>
+</html>

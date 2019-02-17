@@ -1,0 +1,439 @@
+{
+ "Susceptible": {
+ "Drug": {
+ "Ampicillin": {
+ "State": {
+ "State": [ "Florida", "Georgia", "Illinois", "Kentucky", "Louisiana", "Maryland", "Michigan", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Wisconsin" ],
+"percentage": [ 4.347826, 4.347826, 8.695652, 4.347826, 4.347826, 8.695652,  17.3913, 4.347826,  17.3913, 8.695652, 4.347826, 4.347826, 8.695652 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 30.43478, 69.56522 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 8.695652, 43.47826, 4.347826, 34.78261, 8.695652 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 8.695652, 30.43478, 21.73913, 4.347826, 4.347826, 8.695652, 13.04348, 8.695652 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "CVS: Blood", "GI: Gall Bladder", "GI: Pancreas", "GU: Urine", "HEENT: Ears", "INT: Wound", "Reproductive: Penis" ],
+"percentage": [ 4.347826, 4.347826, 13.04348, 26.08696, 4.347826, 4.347826, 8.695652, 4.347826, 26.08696, 4.347826 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 86.95652, 4.347826, 8.695652 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "Georgia", "Illinois", "Kentucky", "Louisiana", "Maryland", "Michigan", "New York", "Pennsylvania", "South Dakota", "Wisconsin" ],
+"percentage": [     6.25,     6.25,     6.25,     6.25,     6.25,    18.75,    18.75,     6.25,     12.5,     12.5 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [    31.25,    68.75 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [     12.5,    43.75,     6.25,    31.25,     6.25 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [     12.5,       25,     12.5,     6.25,     12.5,       25,     6.25 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "CVS: Blood", "GI: Gall Bladder", "GI: Pancreas", "GU: Urine", "HEENT: Ears", "INT: Wound", "Reproductive: Penis" ],
+"percentage": [     6.25,     6.25,       25,     6.25,     6.25,     6.25,     6.25,    31.25,     6.25 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [     87.5,     12.5 ] 
+} 
+},
+"Linezolid": {
+ "State": {
+ "State": [ "Arizona", "Florida", "Georgia", "Illinois", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Missouri", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Texas", "Wisconsin" ],
+"percentage": [ 2.142857, 6.428571, 5.714286,       10, 6.428571, 1.428571, 3.571429, 5.714286,       15, 0.7142857, 6.428571, 13.57143, 10.71429, 4.285714, 1.428571, 2.142857, 4.285714 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       40,       60 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 2.857143, 1.428571, 52.85714, 1.428571, 34.28571, 7.142857 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 2.857143, 4.285714, 42.85714, 17.14286, 9.285714,        5, 2.142857, 2.142857, 8.571429, 5.714286 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Bile", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "CardioVascular (CVS)", "CVS: Blood", "Genital/Urinary (GU)", "GI: Gall Bladder", "GI: Liver", "GI: Pancreas", "GI: Rectum", "GU: Urinary Bladder", "GU: Urine", "HEENT: Ears", "Instruments: Catheters", "INT: Other", "INT: Skin", "INT: Wound", "None Given", "Reproductive: Penis", "Respiratory: Bronchials", "Respiratory: Sputum" ],
+"percentage": [ 0.7142857, 4.285714, 0.7142857, 1.428571, 3.571429, 5.714286, 0.7142857, 0.7142857,       40, 1.428571, 0.7142857, 1.428571, 0.7142857, 2.857143, 0.7142857, 13.57143, 0.7142857, 0.7142857, 0.7142857, 1.428571, 14.28571, 0.7142857, 0.7142857, 0.7142857, 0.7142857 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 78.57143, 9.285714, 12.14286 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "Arizona", "Florida", "Georgia", "Illinois", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Texas", "Wisconsin" ],
+"percentage": [ 3.488372, 5.813953, 8.139535, 13.95349, 2.325581, 1.162791, 2.325581, 5.813953, 8.139535, 9.302326, 11.62791, 13.95349, 3.488372, 2.325581, 2.325581, 5.813953 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 40.69767, 59.30233 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 2.325581, 2.325581, 55.81395, 2.325581, 26.74419, 10.46512 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 2.325581, 5.813953, 40.69767, 15.11628, 11.62791, 5.813953, 3.488372, 1.162791, 6.976744, 6.976744 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "CVS: Blood", "Genital/Urinary (GU)", "GI: Pancreas", "GI: Rectum", "GU: Urine", "HEENT: Ears", "Instruments: Catheters", "INT: Other", "INT: Skin", "INT: Wound", "None Given", "Respiratory: Sputum" ],
+"percentage": [ 1.162791, 4.651163, 1.162791, 3.488372, 4.651163, 1.162791,  37.2093, 1.162791, 1.162791, 4.651163, 17.44186, 1.162791, 1.162791, 1.162791, 2.325581, 13.95349, 1.162791, 1.162791 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [  74.4186, 11.62791, 13.95349 ] 
+} 
+},
+"Penicillin": {
+ "State": {
+ "State": [ "Florida", "Georgia", "Illinois", "Kentucky", "Louisiana", "Maryland", "Michigan", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Wisconsin" ],
+"percentage": [ 4.545455, 4.545455, 9.090909, 4.545455, 4.545455, 9.090909, 13.63636, 4.545455, 18.18182, 9.090909, 4.545455, 4.545455, 9.090909 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 27.27273, 72.72727 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 9.090909, 45.45455, 4.545455, 31.81818, 9.090909 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 9.090909, 31.81818, 22.72727, 4.545455, 4.545455, 9.090909, 9.090909, 9.090909 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "CVS: Blood", "GI: Gall Bladder", "GU: Urine", "HEENT: Ears", "INT: Wound", "Reproductive: Penis" ],
+"percentage": [ 4.545455, 4.545455, 13.63636, 27.27273, 4.545455, 9.090909, 4.545455, 27.27273, 4.545455 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 86.36364, 4.545455, 9.090909 ] 
+} 
+},
+"Tigecycline": {
+ "State": {
+ "State": [ "Arizona", "Florida", "Georgia", "Illinois", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Missouri", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Texas", "Wisconsin" ],
+"percentage": [  2.12766, 6.382979, 6.382979, 9.929078, 6.382979,  1.41844, 3.546099, 5.673759, 14.89362, 0.7092199, 6.382979, 13.47518,  10.6383, 4.255319,  1.41844,  2.12766, 4.255319 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 39.71631, 60.28369 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 2.836879,  1.41844, 53.19149,  1.41844, 34.04255, 7.092199 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 2.836879, 4.255319, 42.55319,  17.7305, 9.219858, 4.964539,  2.12766,  2.12766, 8.510638, 5.673759 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Bile", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "CardioVascular (CVS)", "CVS: Blood", "Genital/Urinary (GU)", "GI: Gall Bladder", "GI: Liver", "GI: Pancreas", "GI: Rectum", "GU: Urinary Bladder", "GU: Urine", "HEENT: Ears", "Instruments: Catheters", "INT: Other", "INT: Skin", "INT: Wound", "None Given", "Reproductive: Penis", "Respiratory: Bronchials", "Respiratory: Sputum" ],
+"percentage": [ 0.7092199, 4.255319, 0.7092199,  1.41844, 3.546099, 5.673759, 0.7092199, 0.7092199, 40.42553,  1.41844, 0.7092199,  1.41844, 0.7092199, 2.836879, 0.7092199, 13.47518, 0.7092199, 0.7092199, 0.7092199,  1.41844,  14.1844, 0.7092199, 0.7092199, 0.7092199, 0.7092199 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [  78.7234, 9.219858, 12.05674 ] 
+} 
+},
+"Vancomycin": {
+ "State": {
+ "State": [ "Florida", "Georgia", "Illinois", "Kentucky", "Louisiana", "Maryland", "Michigan", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Wisconsin" ],
+"percentage": [      7.5,        5,        5,      2.5,      2.5,        5,       15,     12.5,      7.5,       15,      7.5,        5,       10 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [     32.5,     67.5 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [      2.5,      2.5,       55,      2.5,     32.5,        5 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [      2.5,        5,     27.5,     17.5,       15,        5,      2.5,      2.5,       15,      7.5 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "CVS: Blood", "GI: Gall Bladder", "GI: Pancreas", "GU: Urinary Bladder", "GU: Urine", "HEENT: Ears", "INT: Wound" ],
+"percentage": [      2.5,      2.5,        5,      7.5,       40,      2.5,      2.5,      2.5,       10,      2.5,     22.5 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [     72.5,       15,     12.5 ] 
+} 
+} 
+},
+"percentage": [  4.91453, 3.418803, 29.91453, 18.37607, 4.700855, 30.12821, 8.547009 ],
+"weight": 0.4741641,
+"backgroundColor": [ "#b2df8a", "#8dd3c7", "#ffffb3", "#80b1d3", "#fdb462", "#fccde5", "#d9d9d9" ] 
+},
+"Intermediate": {
+ "Drug": {
+ "Levofloxacin": {
+ "State": {
+ "State": [ "Florida", "Nebraska" ],
+"percentage": [       50,       50 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given" ],
+"percentage": [       50,       50 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       50,       50 ] 
+} 
+},
+"Linezolid": {
+ "State": {
+ "State": [ "Georgia" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "Florida", "Georgia", "Illinois", "Maryland", "Michigan", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Texas" ],
+"percentage": [ 3.846154, 7.692308, 7.692308, 7.692308, 38.46154, 3.846154, 15.38462, 3.846154, 7.692308, 3.846154 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 46.15385, 53.84615 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 46.15385,       50, 3.846154 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Surgery General", "Surgery ICU" ],
+"percentage": [ 3.846154, 3.846154,       50, 15.38462, 7.692308, 11.53846, 7.692308 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "CVS: Blood", "Genital/Urinary (GU)", "GI: Liver", "GU: Urine", "INT: Wound", "Respiratory: Bronchials" ],
+"percentage": [ 3.846154, 3.846154, 7.692308, 38.46154, 3.846154, 3.846154, 15.38462, 19.23077, 3.846154 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 84.61538, 7.692308, 7.692308 ] 
+} 
+},
+"Vancomycin": {
+ "State": {
+ "State": [ "New York", "Pennsylvania" ],
+"percentage": [       50,       50 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Pediatric ICU" ],
+"percentage": [       50,       50 ] 
+},
+"Source": {
+ "Source": [ "INT: Wound", "Reproductive: Penis" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [ 6.451613, 3.225806, 83.87097, 6.451613 ],
+"weight": 0.03140831,
+"backgroundColor": [ "#8dd3c7", "#ffffb3", "#80b1d3", "#d9d9d9" ] 
+},
+"Resistant": {
+ "Drug": {
+ "Ampicillin": {
+ "State": {
+ "State": [ "Arizona", "Florida", "Georgia", "Illinois", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Missouri", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Texas", "Wisconsin" ],
+"percentage": [ 2.542373, 6.779661, 6.779661, 10.16949, 7.627119, 0.8474576, 3.389831, 5.084746, 14.40678, 0.8474576, 6.779661, 12.71186, 11.01695, 4.237288, 0.8474576, 2.542373, 3.389831 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 41.52542, 58.47458 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 1.694915, 1.694915, 55.08475, 0.8474576, 33.89831, 6.779661 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 3.389831, 3.389831, 44.91525, 16.94915, 10.16949, 5.932203, 1.694915, 0.8474576, 7.627119, 5.084746 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Bile", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "CardioVascular (CVS)", "CVS: Blood", "Genital/Urinary (GU)", "GI: Liver", "GI: Rectum", "GU: Urinary Bladder", "GU: Urine", "Instruments: Catheters", "INT: Other", "INT: Skin", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Sputum" ],
+"percentage": [ 0.8474576, 4.237288, 0.8474576, 1.694915, 3.389831, 4.237288, 0.8474576, 0.8474576, 43.22034, 1.694915, 1.694915, 3.389831, 0.8474576, 14.40678, 0.8474576, 0.8474576, 1.694915, 11.86441, 0.8474576, 0.8474576, 0.8474576 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 77.11864, 10.16949, 12.71186 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "Arizona", "Florida", "Georgia", "Illinois", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Missouri", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Texas", "Wisconsin" ],
+"percentage": [ 2.439024, 6.504065, 6.504065, 10.56911, 7.317073, 0.8130081, 3.252033, 5.691057, 14.63415, 0.8130081, 6.504065, 13.00813, 11.38211, 3.252033, 1.626016, 2.439024, 3.252033 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 41.46341, 58.53659 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 1.626016, 1.626016, 54.47154, 0.8130081, 34.14634, 7.317073 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 3.252033, 3.252033, 45.52846, 17.88618, 9.756098, 5.691057, 1.626016, 0.8130081, 6.504065, 5.691057 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Bile", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "CardioVascular (CVS)", "CVS: Blood", "Genital/Urinary (GU)", "GI: Liver", "GI: Rectum", "GU: Urinary Bladder", "GU: Urine", "Instruments: Catheters", "INT: Other", "INT: Skin", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Sputum" ],
+"percentage": [ 0.8130081, 4.065041, 0.8130081, 1.626016, 4.065041, 5.691057, 0.8130081, 0.8130081, 41.46341, 1.626016, 1.626016, 3.252033, 0.8130081, 14.63415, 0.8130081, 0.8130081, 1.626016, 12.19512, 0.8130081, 0.8130081, 0.8130081 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 78.04878, 9.756098, 12.19512 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "Florida", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Missouri", "New York", "Pennsylvania", "South Dakota", "Wisconsin" ],
+"percentage": [ 10.34483, 24.13793, 3.448276, 10.34483, 3.448276,  13.7931, 3.448276, 17.24138, 6.896552, 3.448276, 3.448276 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 31.03448, 68.96552 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [ 6.896552, 51.72414, 41.37931 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric ICU", "Surgery General" ],
+"percentage": [ 3.448276, 41.37931, 27.58621, 3.448276, 6.896552, 6.896552, 10.34483 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Bile", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "CardioVascular (CVS)", "CVS: Blood", "GI: Gall Bladder", "GI: Liver", "GU: Urinary Bladder", "INT: Wound", "Reproductive: Penis" ],
+"percentage": [ 3.448276, 3.448276, 3.448276, 3.448276, 6.896552, 3.448276, 51.72414, 3.448276, 3.448276, 3.448276, 10.34483, 3.448276 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [  86.2069, 3.448276, 10.34483 ] 
+} 
+},
+"Penicillin": {
+ "State": {
+ "State": [ "Arizona", "Florida", "Georgia", "Illinois", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Missouri", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Tennessee", "Texas", "Wisconsin" ],
+"percentage": [ 2.521008, 6.722689, 6.722689, 10.08403, 7.563025, 0.8403361, 3.361345, 5.042017, 15.12605, 0.8403361, 6.722689, 12.60504, 10.92437, 4.201681, 0.8403361, 2.521008, 3.361345 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 42.01681, 57.98319 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 1.680672, 1.680672, 54.62185, 0.8403361, 34.45378, 6.722689 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 3.361345, 3.361345, 44.53782, 16.80672, 10.08403, 5.882353, 1.680672, 0.8403361, 8.403361, 5.042017 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Bile", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "CardioVascular (CVS)", "CVS: Blood", "Genital/Urinary (GU)", "GI: Liver", "GI: Pancreas", "GI: Rectum", "GU: Urinary Bladder", "GU: Urine", "Instruments: Catheters", "INT: Other", "INT: Skin", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Sputum" ],
+"percentage": [ 0.8403361, 4.201681, 0.8403361, 1.680672, 3.361345, 4.201681, 0.8403361, 0.8403361, 42.85714, 1.680672, 1.680672, 0.8403361, 3.361345, 0.8403361, 14.28571, 0.8403361, 0.8403361, 1.680672, 11.76471, 0.8403361, 0.8403361, 0.8403361 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 77.31092, 10.08403, 12.60504 ] 
+} 
+},
+"Vancomycin": {
+ "State": {
+ "State": [ "Arizona", "Florida", "Georgia", "Illinois", "Indiana", "Kentucky", "Louisiana", "Maryland", "Michigan", "Missouri", "Nebraska", "New York", "Pennsylvania", "South Dakota", "Texas", "Wisconsin" ],
+"percentage": [ 3.030303, 6.060606, 7.070707, 12.12121, 9.090909, 1.010101, 4.040404, 6.060606, 15.15152, 1.010101, 4.040404, 15.15152, 8.080808, 3.030303, 3.030303, 2.020202 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 43.43434, 56.56566 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 2.020202, 1.010101, 52.52525, 1.010101, 35.35354, 8.080808 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Nursing Home / Rehab", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 3.030303, 4.040404, 48.48485, 18.18182, 7.070707, 5.050505, 2.020202, 1.010101, 6.060606, 5.050505 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Bile", "Bodily Fluids: CSF", "Bodily Fluids: Other", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "CardioVascular (CVS)", "CVS: Blood", "Genital/Urinary (GU)", "GI: Liver", "GI: Rectum", "GU: Urine", "Instruments: Catheters", "INT: Other", "INT: Skin", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Sputum" ],
+"percentage": [ 5.050505, 1.010101, 2.020202, 3.030303, 5.050505, 1.010101, 1.010101, 41.41414, 2.020202, 2.020202, 4.040404, 15.15152, 1.010101, 1.010101, 2.020202, 10.10101, 1.010101, 1.010101, 1.010101 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 80.80808, 7.070707, 12.12121 ] 
+} 
+} 
+},
+"percentage": [ 24.18033, 25.20492, 5.942623, 24.38525, 20.28689 ],
+"weight": 0.4944276,
+"backgroundColor": [ "#b2df8a", "#8dd3c7", "#80b1d3", "#fdb462", "#d9d9d9" ] 
+} 
+}
