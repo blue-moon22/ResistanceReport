@@ -1,0 +1,413 @@
+{
+ "Susceptible": {
+ "Drug": {
+ "Imipenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "None Given", "Surgery General" ],
+"percentage": [       50,       50 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Wound" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       50,       50 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [     12.5,     87.5 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [     12.5,     37.5,     12.5,     37.5 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU", "Surgery General" ],
+"percentage": [     37.5,       25,       25,     12.5 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Wound", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [       25,     12.5,     12.5,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       75,       25 ] 
+} 
+} 
+},
+"percentage": [       20,       80 ],
+"weight": 0.1388889,
+"backgroundColor": [ "#b15928", "#80b1d3" ] 
+},
+"Intermediate": {
+ "Drug": {
+ "Amikacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "Respiratory: Trachea" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Imipenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "None Given" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "Respiratory: Sputum" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       25,       75 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years" ],
+"percentage": [       25,       75 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU", "Surgery General" ],
+"percentage": [       25,       25,       25,       25 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Wound", "Respiratory: Trachea" ],
+"percentage": [       50,       25,       25 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       75,       25 ] 
+} 
+},
+"Piperacillin tazobactam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Surgery General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "INT: Wound" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [ 14.28571, 14.28571, 57.14286, 14.28571 ],
+"weight": 0.09722222,
+"backgroundColor": [ "#a6cee3", "#b15928", "#8dd3c7", "#b3de69" ] 
+},
+"Resistant": {
+ "Drug": {
+ "Amikacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       25,       75 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [     12.5,       50,     12.5,       25 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU", "Surgery General" ],
+"percentage": [     37.5,       25,       25,     12.5 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Wound", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [       25,     12.5,     12.5,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       75,       25 ] 
+} 
+},
+"Cefepime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 22.22222, 77.77778 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [ 11.11111, 44.44444, 11.11111, 33.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU", "Surgery General" ],
+"percentage": [ 44.44444, 22.22222, 22.22222, 11.11111 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Wound", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 22.22222, 11.11111, 11.11111, 55.55556 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [ 77.77778, 22.22222 ] 
+} 
+},
+"Ceftazidime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 22.22222, 77.77778 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [ 11.11111, 44.44444, 11.11111, 33.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU", "Surgery General" ],
+"percentage": [ 44.44444, 22.22222, 22.22222, 11.11111 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Wound", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 22.22222, 11.11111, 11.11111, 55.55556 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [ 77.77778, 22.22222 ] 
+} 
+},
+"Ceftriaxone": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 22.22222, 77.77778 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [ 11.11111, 44.44444, 11.11111, 33.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU", "Surgery General" ],
+"percentage": [ 44.44444, 22.22222, 22.22222, 11.11111 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Wound", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 22.22222, 11.11111, 11.11111, 55.55556 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [ 77.77778, 22.22222 ] 
+} 
+},
+"Imipenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       20,       80 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [       20,       20,       20,       40 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "Pediatric ICU" ],
+"percentage": [       60,       40 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "Respiratory: Trachea" ],
+"percentage": [       20,       80 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       20,       80 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [       20,       20,       60 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU" ],
+"percentage": [       60,       20,       20 ] 
+},
+"Source": {
+ "Source": [ "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [       20,       80 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       80,       20 ] 
+} 
+},
+"Meropenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "Respiratory: Trachea" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "Respiratory: Trachea" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Piperacillin tazobactam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       25,       75 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [     12.5,     37.5,     12.5,     37.5 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU", "None Given", "Pediatric ICU" ],
+"percentage": [       50,       25,       25 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [       25,     12.5,     62.5 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       75,       25 ] 
+} 
+} 
+},
+"percentage": [ 14.54545, 16.36364, 16.36364, 16.36364, 9.090909, 9.090909, 1.818182, 1.818182, 14.54545 ],
+"weight": 0.7638889,
+"backgroundColor": [ "#a6cee3", "#fb9a99", "#fdbf6f", "#ff7f00", "#b15928", "#8dd3c7", "#bebada", "#80b1d3", "#b3de69" ] 
+} 
+}

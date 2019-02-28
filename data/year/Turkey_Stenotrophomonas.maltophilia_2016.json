@@ -1,0 +1,98 @@
+{
+ "Susceptible": {
+ "Drug": null,
+"percentage": null 
+},
+"Intermediate": {
+ "Drug": {
+ "Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Pediatric General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "Respiratory: Sputum" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage":      100,
+"weight":     0.25,
+"backgroundColor": "#8dd3c7" 
+},
+"Resistant": {
+ "Drug": {
+ "Ceftazidime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "3 to 12 Years" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Pediatric General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "INT: Wound", "Respiratory: Sputum" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "3 to 12 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Pediatric General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "INT: Wound" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [ 66.66667, 33.33333 ],
+"weight":     0.75,
+"backgroundColor": [ "#fdbf6f", "#8dd3c7" ] 
+} 
+}

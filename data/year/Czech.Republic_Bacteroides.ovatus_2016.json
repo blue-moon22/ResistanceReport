@@ -1,0 +1,228 @@
+{
+ "Susceptible": {
+ "Drug": {
+ "Cefoxitin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Medicine General", "Surgery General" ],
+"percentage": [       25,       50,       25 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Other", "Bodily Fluids: Tissue", "INT: Other" ],
+"percentage": [       25,       25,       25,       25 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       75,       25 ] 
+} 
+},
+"Clindamycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Surgery General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Meropenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       40,       60 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       60,       40 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Medicine General", "Medicine ICU", "Surgery General" ],
+"percentage": [       20,       40,       20,       20 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Other", "Bodily Fluids: Tissue", "GI: Stomach", "INT: Other" ],
+"percentage": [       20,       20,       20,       20,       20 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       80,       20 ] 
+} 
+},
+"Metronidazole": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       40,       60 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       60,       40 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Medicine General", "Medicine ICU", "Surgery General" ],
+"percentage": [       20,       40,       20,       20 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Other", "Bodily Fluids: Tissue", "GI: Stomach", "INT: Other" ],
+"percentage": [       20,       20,       20,       20,       20 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       80,       20 ] 
+} 
+},
+"Piperacillin tazobactam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       40,       60 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       60,       40 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Medicine General", "Medicine ICU", "Surgery General" ],
+"percentage": [       20,       40,       20,       20 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Other", "Bodily Fluids: Tissue", "GI: Stomach", "INT: Other" ],
+"percentage": [       20,       20,       20,       20,       20 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       80,       20 ] 
+} 
+},
+"Tigecycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       40,       60 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       60,       40 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Medicine General", "Medicine ICU", "Surgery General" ],
+"percentage": [       20,       40,       20,       20 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abdominal", "Bodily Fluids: Other", "Bodily Fluids: Tissue", "GI: Stomach", "INT: Other" ],
+"percentage": [       20,       20,       20,       20,       20 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       80,       20 ] 
+} 
+} 
+},
+"percentage": [       16,        4,       20,       20,       20,       20 ],
+"weight": 0.8333333,
+"backgroundColor": [ "#e31a1c", "#6a3d9a", "#bebada", "#fb8072", "#b3de69", "#fccde5" ] 
+},
+"Intermediate": {
+ "Drug": null,
+"percentage": null 
+},
+"Resistant": {
+ "Drug": {
+ "Cefoxitin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine ICU" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GI: Stomach" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Clindamycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       25,       75 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       75,       25 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Medicine General", "Medicine ICU" ],
+"percentage": [       25,       50,       25 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Other", "Bodily Fluids: Tissue", "GI: Stomach", "INT: Other" ],
+"percentage": [       25,       25,       25,       25 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       75,       25 ] 
+} 
+} 
+},
+"percentage": [       20,       80 ],
+"weight": 0.1666667,
+"backgroundColor": [ "#e31a1c", "#6a3d9a" ] 
+} 
+}

@@ -1,0 +1,231 @@
+{
+ "Susceptible": {
+ "Drug": {
+ "Cefixime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "None Given", "Other" ],
+"percentage": [       25,       75 ] 
+},
+"Source": {
+ "Source": [ "GI: Rectum", "GU: Urethra", "HEENT:Throat" ],
+"percentage": [       50,       25,       25 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+},
+"Ceftazidime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "None Given", "Other" ],
+"percentage": [       25,       75 ] 
+},
+"Source": {
+ "Source": [ "GI: Rectum", "GU: Urethra", "HEENT:Throat" ],
+"percentage": [       50,       25,       25 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+},
+"Ceftriaxone": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "None Given", "Other" ],
+"percentage": [       25,       75 ] 
+},
+"Source": {
+ "Source": [ "GI: Rectum", "GU: Urethra", "HEENT:Throat" ],
+"percentage": [       50,       25,       25 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+},
+"Ciprofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "None Given", "Other" ],
+"percentage": [ 33.33333, 66.66667 ] 
+},
+"Source": {
+ "Source": [ "GI: Rectum", "HEENT:Throat" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+},
+"Tetracycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Other" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GI: Rectum" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [       25,       25,       25,    18.75,     6.25 ],
+"weight":      0.8,
+"backgroundColor": [ "#1b9e77", "#fdbf6f", "#ff7f00", "#66a61e", "#fc8d62" ] 
+},
+"Intermediate": {
+ "Drug": {
+ "Tetracycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "None Given", "Other" ],
+"percentage": [       50,       50 ] 
+},
+"Source": {
+ "Source": [ "GI: Rectum", "HEENT:Throat" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage":      100,
+"weight":      0.1,
+"backgroundColor": "#fc8d62" 
+},
+"Resistant": {
+ "Drug": {
+ "Ciprofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Other" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GU: Urethra" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+},
+"Tetracycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Other" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GU: Urethra" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "None Given" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [       50,       50 ],
+"weight":      0.1,
+"backgroundColor": [ "#66a61e", "#fc8d62" ] 
+} 
+}

@@ -1,0 +1,855 @@
+{
+ "Susceptible": {
+ "Drug": {
+ "Azithromycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [ 3.571429, 14.28571, 42.85714, 14.28571,       25 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "Pediatric ICU", "Surgery General" ],
+"percentage": [ 10.71429,       25,       50, 7.142857, 3.571429, 3.571429 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: Synovial", "Bodily Fluids: Ulcer", "CVS: Blood", "HEENT: Ears", "HEENT: Eyes", "Instruments: Catheters", "INT: Skin", "INT: Wound", "None Given", "Respiratory: Trachea" ],
+"percentage": [ 3.571429, 42.85714, 3.571429, 3.571429, 3.571429, 10.71429, 3.571429, 3.571429, 3.571429, 7.142857, 7.142857, 3.571429, 3.571429 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [ 64.28571, 35.71429 ] 
+} 
+},
+"Ceftaroline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [       48,     51.6,      0.4 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [      7.6,      4.4,     54.4,      8.4,     21.6,      3.6 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [     18.4,      1.6,       40,        4,      3.2,     14.4,     17.2,      1.2 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [      0.4,      2.8,      1.6,      9.6,      4.8,        2,     34.4,      5.2,      9.2,      0.8,      9.6,     13.6,      0.4,      3.2,      0.4,      0.8,      1.2 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [     78.4,      3.2,     18.4 ] 
+} 
+},
+"Clindamycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.86325,  51.7094, 0.4273504 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 8.119658, 4.700855, 53.84615, 8.974359, 20.94017, 3.418803 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 19.65812, 1.709402, 38.46154, 4.273504, 3.418803, 15.38462, 15.81197, 1.282051 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.4273504, 2.991453, 1.709402,  9.82906, 3.418803, 2.136752, 35.04274, 5.128205,  9.82906, 0.8547009, 9.401709, 13.24786, 0.4273504, 3.418803, 0.4273504, 0.8547009, 0.8547009 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 76.92308, 3.418803, 19.65812 ] 
+} 
+},
+"Daptomycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.05882, 52.54902, 0.3921569 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [  7.45098, 4.705882, 54.90196, 8.235294, 21.17647, 3.529412 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 18.03922, 1.568627, 39.60784, 3.921569, 3.529412, 14.11765, 18.03922, 1.176471 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.3921569, 2.745098, 1.568627, 9.803922, 4.705882, 1.960784,  34.5098, 5.490196, 9.019608, 0.7843137, 9.411765, 13.33333, 0.3921569, 3.529412, 0.3921569, 0.7843137, 1.176471 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 78.43137, 3.529412, 18.03922 ] 
+} 
+},
+"Erythromycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 51.44928, 48.55072 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 4.347826, 5.797101, 51.44928, 12.31884, 23.18841, 2.898551 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 21.73913, 0.7246377, 42.02899, 2.898551, 5.072464, 13.04348, 13.76812, 0.7246377 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 3.623188, 2.173913,  9.42029, 3.623188, 2.898551, 36.95652, 5.797101,  9.42029, 0.7246377, 10.86957,  11.5942, 1.449275, 1.449275 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 73.18841, 5.072464, 21.73913 ] 
+} 
+},
+"Gentamicin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 48.62385, 50.91743, 0.4587156 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [  7.33945, 4.587156, 52.75229, 8.715596, 22.47706,  4.12844 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 18.34862, 1.834862,  41.2844,  4.12844, 3.669725, 13.76147, 15.59633, 1.376147 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.4587156, 3.211009, 1.834862, 10.09174, 5.045872, 2.293578, 33.02752, 5.045872, 9.174312, 0.9174312, 9.633028, 12.84404, 0.4587156, 3.669725, 0.9174312, 1.376147 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 77.98165, 3.669725, 18.34862 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 46.84015, 52.41636, 0.7434944 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over", "Unknown" ],
+"percentage": [ 7.806691, 5.576208, 52.41636, 10.03717,  19.7026, 4.089219, 0.3717472 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 1.486989, 20.07435, 1.486989, 41.26394, 4.832714, 2.973978,  13.3829, 0.7434944, 12.63941, 1.115242 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: CSF", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "Bodily Fluids: Synovial", "Bodily Fluids: Thoracentesis", "Bodily Fluids: Ulcer", "CVS: Blood", "GI: Abscess", "GU: Urethra", "GU: Urine", "HEENT: Eyes", "Instruments: Catheters", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin", "INT: Skin Ulcer", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 0.7434944, 0.3717472,  6.69145, 0.7434944, 0.3717472, 2.230483, 0.3717472, 0.7434944, 1.486989, 0.3717472, 10.40892, 3.345725, 0.3717472, 1.858736, 0.3717472, 0.3717472, 29.73978, 4.460967, 7.806691, 0.7434944, 1.115242, 7.063197, 11.89591, 0.3717472, 0.3717472, 2.973978, 0.3717472, 0.7434944, 1.115242, 0.3717472 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 75.46468, 2.973978, 21.56134 ] 
+} 
+},
+"Linezolid": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.17608, 52.15947, 0.6644518 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over", "Unknown" ],
+"percentage": [ 6.976744, 5.315615, 52.82392, 9.302326, 21.59468, 3.654485, 0.3322259 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [  1.66113, 18.93688, 1.328904, 41.52824, 4.318937, 2.990033, 11.96013, 0.6644518, 15.61462, 0.9966777 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: CSF", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "Bodily Fluids: Synovial", "Bodily Fluids: Thoracentesis", "Bodily Fluids: Ulcer", "CVS: Blood", "GI: Abscess", "GU: Urethra", "GU: Urine", "HEENT: Ears", "HEENT: Eyes", "Instruments: Catheters", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin", "INT: Skin Ulcer", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 0.6644518, 0.3322259, 6.312292, 0.6644518, 0.3322259, 2.325581, 0.3322259, 0.6644518, 1.328904, 0.3322259, 9.634551, 3.986711, 0.3322259,  1.66113, 0.3322259, 0.3322259, 0.3322259, 29.23588, 4.651163, 7.641196, 0.6644518, 1.328904, 7.973422, 12.62458, 0.3322259, 0.3322259, 2.990033, 0.3322259, 0.6644518, 0.9966777, 0.3322259 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 76.41196, 2.990033, 20.59801 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 46.97987, 52.34899, 0.6711409 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over", "Unknown" ],
+"percentage": [  7.04698, 5.369128, 52.68456, 9.395973, 21.47651, 3.691275, 0.3355705 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [ 1.677852, 19.12752, 1.342282, 41.27517, 4.362416, 3.020134, 12.08054, 0.6711409, 15.43624, 1.006711 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: CSF", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "Bodily Fluids: Synovial", "Bodily Fluids: Thoracentesis", "Bodily Fluids: Ulcer", "CVS: Blood", "GI: Abscess", "GU: Urethra", "GU: Urine", "HEENT: Ears", "HEENT: Eyes", "Instruments: Catheters", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin", "INT: Skin Ulcer", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 0.6711409, 0.3355705, 6.375839, 0.6711409, 0.3355705, 2.348993, 0.3355705, 0.6711409, 1.342282, 0.3355705, 9.731544, 4.026846, 0.3355705, 1.677852, 0.3355705, 0.3355705, 0.3355705,  29.5302, 4.362416, 7.718121, 0.6711409, 1.342282, 7.718121, 12.41611, 0.3355705, 0.3355705, 3.020134, 0.3355705, 0.6711409, 1.006711, 0.3355705 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [  76.1745, 3.020134, 20.80537 ] 
+} 
+},
+"Moxifloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.13656, 52.42291, 0.4405286 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 8.370044, 4.845815, 54.18502, 9.251101, 19.38326, 3.964758 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 19.38326, 1.762115, 39.20705, 4.405286, 3.524229, 15.85903, 14.53744, 1.321586 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.4405286, 2.643172, 1.762115, 10.57269, 3.964758, 2.202643, 35.24229, 5.286344, 9.251101, 0.8810573, 8.810573,  12.3348, 0.4405286, 3.524229, 0.4405286, 0.8810573, 1.321586 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 77.09251, 3.524229, 19.38326 ] 
+} 
+},
+"Oxacillin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 50.49505, 48.51485, 0.990099 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 3.960396, 0.990099, 54.45545, 4.950495, 30.69307, 4.950495 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 27.72277, 0.990099, 41.58416, 7.920792, 4.950495, 6.930693, 7.920792, 1.980198 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 3.960396, 1.980198, 14.85149, 1.980198, 35.64356, 3.960396, 1.980198, 14.85149, 12.87129, 0.990099, 4.950495, 1.980198 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 67.32673, 4.950495, 27.72277 ] 
+} 
+},
+"Penicillin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 16.66667, 16.66667,       50, 16.66667 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU" ],
+"percentage": [ 16.66667, 66.66667, 16.66667 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Synovial", "Bodily Fluids: Ulcer", "CVS: Blood", "INT: Wound" ],
+"percentage": [ 33.33333, 16.66667, 16.66667, 16.66667, 16.66667 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [ 83.33333, 16.66667 ] 
+} 
+},
+"Teicoplanin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.05882, 52.54902, 0.3921569 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [  7.45098, 4.705882, 54.90196, 8.235294, 21.17647, 3.529412 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 18.03922, 1.568627, 39.60784, 3.921569, 3.529412, 14.11765, 18.03922, 1.176471 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.3921569, 2.745098, 1.568627, 9.803922, 4.705882, 1.960784,  34.5098, 5.490196, 9.019608, 0.7843137, 9.411765, 13.33333, 0.3921569, 3.529412, 0.3921569, 0.7843137, 1.176471 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 78.43137, 3.529412, 18.03922 ] 
+} 
+},
+"Tigecycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.17608, 52.15947, 0.6644518 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over", "Unknown" ],
+"percentage": [ 6.976744, 5.315615, 52.82392, 9.302326, 21.59468, 3.654485, 0.3322259 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [  1.66113, 18.93688, 1.328904, 41.52824, 4.318937, 2.990033, 11.96013, 0.6644518, 15.61462, 0.9966777 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: CSF", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "Bodily Fluids: Synovial", "Bodily Fluids: Thoracentesis", "Bodily Fluids: Ulcer", "CVS: Blood", "GI: Abscess", "GU: Urethra", "GU: Urine", "HEENT: Ears", "HEENT: Eyes", "Instruments: Catheters", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin", "INT: Skin Ulcer", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 0.6644518, 0.3322259, 6.312292, 0.6644518, 0.3322259, 2.325581, 0.3322259, 0.6644518, 1.328904, 0.3322259, 9.634551, 3.986711, 0.3322259,  1.66113, 0.3322259, 0.3322259, 0.3322259, 29.23588, 4.651163, 7.641196, 0.6644518, 1.328904, 7.973422, 12.62458, 0.3322259, 0.3322259, 2.990033, 0.3322259, 0.6644518, 0.9966777, 0.3322259 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 76.41196, 2.990033, 20.59801 ] 
+} 
+},
+"Trimethoprim sulfa": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.03557, 52.56917, 0.3952569 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 7.509881, 4.743083, 54.94071, 8.300395, 20.94862, 3.557312 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 18.18182, 1.581028, 39.52569, 3.952569, 3.557312, 14.22925, 17.78656, 1.185771 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.3952569, 2.766798, 1.581028, 9.881423, 4.743083, 1.976285, 34.78261,  5.13834, 9.090909, 0.7905138, 9.486166, 13.04348, 0.3952569, 3.557312, 0.3952569, 0.7905138, 1.185771 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 78.26087, 3.557312, 18.18182 ] 
+} 
+},
+"Vancomycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 47.17608, 52.15947, 0.6644518 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over", "Unknown" ],
+"percentage": [ 6.976744, 5.315615, 52.82392, 9.302326, 21.59468, 3.654485, 0.3322259 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU", "Surgery General", "Surgery ICU" ],
+"percentage": [  1.66113, 18.93688, 1.328904, 41.52824, 4.318937, 2.990033, 11.96013, 0.6644518, 15.61462, 0.9966777 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: CSF", "Bodily Fluids: Peritoneal", "Bodily Fluids: Pleural", "Bodily Fluids: Synovial", "Bodily Fluids: Thoracentesis", "Bodily Fluids: Ulcer", "CVS: Blood", "GI: Abscess", "GU: Urethra", "GU: Urine", "HEENT: Ears", "HEENT: Eyes", "Instruments: Catheters", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin", "INT: Skin Ulcer", "INT: Wound", "None Given", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum", "Respiratory: Trachea" ],
+"percentage": [ 0.6644518, 0.3322259, 6.312292, 0.6644518, 0.3322259, 2.325581, 0.3322259, 0.6644518, 1.328904, 0.3322259, 9.634551, 3.986711, 0.3322259,  1.66113, 0.3322259, 0.3322259, 0.3322259, 29.23588, 4.651163, 7.641196, 0.6644518, 1.328904, 7.973422, 12.62458, 0.3322259, 0.3322259, 2.990033, 0.3322259, 0.6644518, 0.9966777, 0.3322259 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 76.41196, 2.990033, 20.59801 ] 
+} 
+} 
+},
+"percentage": [ 0.8151383,  7.27802, 6.812227, 7.423581, 4.017467, 6.346434,  7.83115, 8.762737,   8.6754, 6.608443,  2.94032, 0.1746725, 7.423581, 8.762737, 7.365357, 8.762737 ],
+"weight": 0.8825797,
+"backgroundColor": [ "#33a02c", "#d95f02", "#6a3d9a", "#666666", "#ffff99", "#984ea3", "#8dd3c7", "#ffffb3", "#80b1d3", "#ff7f00", "#ffff33", "#fdb462", "#66c2a5", "#fccde5", "#8da0cb", "#d9d9d9" ] 
+},
+"Intermediate": {
+ "Drug": {
+ "Ceftaroline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years" ],
+"percentage": [       20,       80 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "None Given", "Surgery General" ],
+"percentage": [       20,       20,       60 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Abscess", "INT: Cellulitis/Erysipelas", "Respiratory: Endotracheal aspirate" ],
+"percentage": [       20,       40,       20,       20 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       80,       20 ] 
+} 
+},
+"Erythromycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years" ],
+"percentage": [     12.5,     87.5 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Pediatric General", "Surgery General" ],
+"percentage": [     12.5,     37.5,     12.5,     37.5 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Abscess", "INT: Cellulitis/Erysipelas", "Respiratory: Other" ],
+"percentage": [     12.5,     62.5,     12.5,     12.5 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [     87.5,     12.5 ] 
+} 
+},
+"Gentamicin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 33.33333, 66.66667 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Surgery General" ],
+"percentage": [ 33.33333, 66.66667 ] 
+},
+"Source": {
+ "Source": [ "GI: Abscess", "INT: Skin Ulcer", "INT: Wound" ],
+"percentage": [ 33.33333, 33.33333, 33.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General" ],
+"percentage": [       50,       50 ] 
+},
+"Source": {
+ "Source": [ "HEENT: Ears", "INT: Skin Ulcer" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       50,       50 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "INT: Skin Ulcer", "INT: Wound" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Moxifloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 57.14286, 42.85714 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [ 42.85714, 57.14286 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Surgery General" ],
+"percentage": [ 57.14286, 42.85714 ] 
+},
+"Source": {
+ "Source": [ "GI: Abscess", "INT: Abscess", "INT: Furuncle", "INT: Skin Ulcer", "INT: Wound" ],
+"percentage": [ 28.57143, 14.28571, 28.57143, 14.28571, 14.28571 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [ 18.51852, 29.62963, 11.11111, 7.407407, 7.407407, 25.92593 ],
+"weight": 0.006937307,
+"backgroundColor": [ "#d95f02", "#ffff99", "#984ea3", "#8dd3c7", "#80b1d3", "#ff7f00" ] 
+},
+"Resistant": {
+ "Drug": {
+ "Azithromycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [ 44.44444,       50, 5.555556 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over", "Unknown" ],
+"percentage": [ 5.555556, 38.88889, 16.66667, 22.22222, 11.11111, 5.555556 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "Pediatric ICU" ],
+"percentage": [ 11.11111, 22.22222, 55.55556, 5.555556, 5.555556 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: CSF", "Bodily Fluids: Pleural", "Bodily Fluids: Synovial", "CVS: Blood", "GU: Urethra", "INT: Skin", "INT: Wound" ],
+"percentage": [ 5.555556, 5.555556, 33.33333, 5.555556, 5.555556, 5.555556, 5.555556, 5.555556, 5.555556, 11.11111, 11.11111 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [ 66.66667, 33.33333 ] 
+} 
+},
+"Clindamycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 38.09524, 61.90476 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 4.761905, 66.66667, 23.80952, 4.761905 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "None Given", "Surgery General" ],
+"percentage": [ 52.38095, 4.761905, 42.85714 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "GI: Abscess", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [  9.52381, 19.04762, 28.57143,  9.52381,  9.52381, 14.28571, 4.761905, 4.761905 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [  95.2381, 4.761905 ] 
+} 
+},
+"Erythromycin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [  41.2844, 57.79817, 0.9174312 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 11.00917, 3.669725, 56.88073, 3.669725, 20.18349, 4.587156 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 13.76147, 2.752294, 36.69725, 5.504587, 1.834862, 15.59633, 22.01835, 1.834862 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.9174312, 1.834862, 0.9174312, 10.09174, 6.422018, 0.9174312,  29.3578, 4.587156, 9.174312, 0.9174312, 8.256881, 16.51376, 0.9174312, 6.422018, 0.9174312, 0.9174312, 0.9174312 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 84.40367, 1.834862, 13.76147 ] 
+} 
+},
+"Gentamicin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 38.23529, 61.76471 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [ 8.823529, 5.882353, 64.70588, 5.882353, 14.70588 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General" ],
+"percentage": [ 17.64706, 29.41176, 2.941176, 2.941176, 17.64706, 29.41176 ] 
+},
+"Source": {
+ "Source": [ "CVS: Blood", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs" ],
+"percentage": [ 8.823529, 47.05882, 8.823529, 8.823529, 5.882353, 14.70588, 2.941176, 2.941176 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 79.41176, 2.941176, 17.64706 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 46.66667, 53.33333 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [ 3.333333,       60, 36.66667 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "None Given", "Surgery General" ],
+"percentage": [ 3.333333, 6.666667, 43.33333, 3.333333, 43.33333 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "CVS: Blood", "GI: Abscess", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Skin", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Endotracheal aspirate" ],
+"percentage": [ 3.333333, 3.333333, 3.333333,       10, 26.66667, 6.666667, 6.666667, 3.333333, 13.33333,       20, 3.333333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 86.66667, 3.333333,       10 ] 
+} 
+},
+"Minocycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Surgery General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "INT: Cellulitis/Erysipelas" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Moxifloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 42.85714, 57.14286 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [ 4.761905, 66.66667, 28.57143 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "None Given", "Surgery General" ],
+"percentage": [  9.52381, 38.09524, 4.761905, 47.61905 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Peritoneal", "CVS: Blood", "GI: Abscess", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Endotracheal aspirate" ],
+"percentage": [ 4.761905, 4.761905, 4.761905, 33.33333,  9.52381, 14.28571, 23.80952, 4.761905 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 85.71429, 4.761905,  9.52381 ] 
+} 
+},
+"Oxacillin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 44.80519, 55.19481 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [  9.74026, 7.142857, 55.19481, 10.38961, 14.93506, 2.597403 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "General Unspecified ICU", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Surgery General", "Surgery ICU" ],
+"percentage": [ 11.68831, 1.948052, 38.31169, 1.298701, 2.597403, 18.83117, 24.67532, 0.6493506 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Peritoneal", "Bodily Fluids: Thoracentesis", "CVS: Blood", "GI: Abscess", "GU: Urine", "INT: Abscess", "INT: Cellulitis/Erysipelas", "INT: Furuncle", "INT: Impetiginous lesions", "INT: Skin Ulcer", "INT: Wound", "Respiratory: Endotracheal aspirate", "Respiratory: Lungs", "Respiratory: Other", "Respiratory: Sputum" ],
+"percentage": [ 0.6493506, 1.948052, 1.298701, 6.493506, 7.792208, 1.948052, 33.76623, 6.493506, 13.63636, 1.298701, 5.844156, 13.63636, 2.597403, 0.6493506, 1.298701, 0.6493506 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 85.71429, 2.597403, 11.68831 ] 
+} 
+},
+"Penicillin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male", "Not recorded" ],
+"percentage": [     47.5,       50,      2.5 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "0 to 2 Years", "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over", "Unknown" ],
+"percentage": [        5,      7.5,       45,     17.5,       20,      2.5,      2.5 ] 
+},
+"Speciality": {
+ "Speciality": [ "Clinic / Office", "Emergency Room", "Medicine General", "Medicine ICU", "Pediatric ICU", "Surgery General" ],
+"percentage": [     12.5,       25,       50,        5,        5,      2.5 ] 
+},
+"Source": {
+ "Source": [ "Bodily Fluids", "Bodily Fluids: Abdominal", "Bodily Fluids: Abscess / Pus", "Bodily Fluids: Aspirate", "Bodily Fluids: CSF", "Bodily Fluids: Pleural", "Bodily Fluids: Synovial", "CVS: Blood", "GU: Urethra", "HEENT: Ears", "HEENT: Eyes", "Instruments: Catheters", "INT: Skin", "INT: Wound", "None Given", "Respiratory: Trachea" ],
+"percentage": [        5,      2.5,       40,        5,      2.5,      2.5,      2.5,      7.5,      2.5,      2.5,      2.5,      2.5,       10,      7.5,      2.5,      2.5 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [     62.5,     37.5 ] 
+} 
+},
+"Trimethoprim sulfa": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Surgery General" ],
+"percentage": [       50,       50 ] 
+},
+"Source": {
+ "Source": [ "INT: Cellulitis/Erysipelas", "INT: Wound" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [ 4.186047, 4.883721, 25.34884, 7.906977, 6.976744, 0.2325581, 4.883721, 35.81395, 9.302326, 0.4651163 ],
+"weight": 0.110483,
+"backgroundColor": [ "#33a02c", "#6a3d9a", "#ffff99", "#984ea3", "#8dd3c7", "#80b1d3", "#ff7f00", "#ffff33", "#fdb462", "#8da0cb" ] 
+} 
+}

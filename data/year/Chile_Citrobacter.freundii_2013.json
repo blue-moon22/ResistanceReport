@@ -1,0 +1,777 @@
+{
+ "Susceptible": {
+ "Drug": {
+ "Amikacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 8.333333, 8.333333, 8.333333, 58.33333, 16.66667 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric ICU" ],
+"percentage": [ 16.66667,       50, 16.66667, 8.333333, 8.333333 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 8.333333,       50, 8.333333, 8.333333, 8.333333, 16.66667 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       75, 8.333333, 16.66667 ] 
+} 
+},
+"Ampicillin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Sputum" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Aztreonam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 16.66667, 66.66667, 16.66667 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General" ],
+"percentage": [ 33.33333, 66.66667 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Sputum" ],
+"percentage": [ 16.66667,       50, 16.66667, 16.66667 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [ 66.66667, 33.33333 ] 
+} 
+},
+"Cefepime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 55.55556, 44.44444 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 11.11111, 11.11111, 11.11111, 55.55556, 11.11111 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "Pediatric ICU" ],
+"percentage": [ 22.22222, 44.44444, 22.22222, 11.11111 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 11.11111, 44.44444, 11.11111, 11.11111, 22.22222 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [ 77.77778, 22.22222 ] 
+} 
+},
+"Ceftaroline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       60,       40 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "65 to 84 Years" ],
+"percentage": [       20,       80 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General" ],
+"percentage": [       20,       80 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Sputum" ],
+"percentage": [       20,       40,       20,       20 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [       80,       20 ] 
+} 
+},
+"Ceftazidime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 42.85714, 57.14286 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [ 14.28571, 14.28571, 71.42857 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "None Given", "Pediatric ICU" ],
+"percentage": [ 14.28571, 57.14286, 14.28571, 14.28571 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Sputum" ],
+"percentage": [ 14.28571, 42.85714, 14.28571, 14.28571, 14.28571 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 71.42857, 14.28571, 14.28571 ] 
+} 
+},
+"Ceftazidime avibactam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 53.33333, 46.66667 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 6.666667, 13.33333, 13.33333, 53.33333, 13.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 13.33333, 53.33333, 13.33333, 6.666667, 6.666667, 6.666667 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 6.666667, 53.33333, 6.666667, 13.33333, 6.666667, 13.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       80, 6.666667, 13.33333 ] 
+} 
+},
+"Doripenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 53.33333, 46.66667 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 6.666667, 13.33333, 13.33333, 53.33333, 13.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 13.33333, 53.33333, 13.33333, 6.666667, 6.666667, 6.666667 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 6.666667, 53.33333, 6.666667, 13.33333, 6.666667, 13.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       80, 6.666667, 13.33333 ] 
+} 
+},
+"Ertapenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 53.33333, 46.66667 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 6.666667, 13.33333, 13.33333, 53.33333, 13.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 13.33333, 53.33333, 13.33333, 6.666667, 6.666667, 6.666667 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 6.666667, 53.33333, 6.666667, 13.33333, 6.666667, 13.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       80, 6.666667, 13.33333 ] 
+} 
+},
+"Imipenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 7.142857, 7.142857, 14.28571, 57.14286, 14.28571 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 14.28571,       50, 14.28571, 7.142857, 7.142857, 7.142857 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 7.142857, 57.14286, 7.142857, 7.142857, 7.142857, 14.28571 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 78.57143, 7.142857, 14.28571 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 55.55556, 44.44444 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 11.11111, 11.11111, 11.11111, 55.55556, 11.11111 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "Pediatric ICU" ],
+"percentage": [ 22.22222, 44.44444, 22.22222, 11.11111 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 11.11111, 44.44444, 11.11111, 11.11111, 22.22222 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [ 77.77778, 22.22222 ] 
+} 
+},
+"Meropenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 53.33333, 46.66667 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 6.666667, 13.33333, 13.33333, 53.33333, 13.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 13.33333, 53.33333, 13.33333, 6.666667, 6.666667, 6.666667 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 6.666667, 53.33333, 6.666667, 13.33333, 6.666667, 13.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       80, 6.666667, 13.33333 ] 
+} 
+},
+"Piperacillin tazobactam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 63.63636, 36.36364 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 9.090909, 18.18182, 63.63636, 9.090909 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given" ],
+"percentage": [ 18.18182, 54.54545, 18.18182, 9.090909 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 9.090909, 36.36364, 9.090909, 18.18182, 9.090909, 18.18182 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 72.72727, 9.090909, 18.18182 ] 
+} 
+},
+"Tigecycline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 53.33333, 46.66667 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 6.666667, 13.33333, 13.33333, 53.33333, 13.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 13.33333, 53.33333, 13.33333, 6.666667, 6.666667, 6.666667 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 6.666667, 53.33333, 6.666667, 13.33333, 6.666667, 13.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       80, 6.666667, 13.33333 ] 
+} 
+} 
+},
+"percentage": [        8, 1.333333,        4,        6, 3.333333, 4.666667,       10,       10,       10, 9.333333,        6,       10, 7.333333,       10 ],
+"weight": 0.6666667,
+"backgroundColor": [ "#a6cee3", "#b2df8a", "#ccebc5", "#fb9a99", "#d95f02", "#fdbf6f", "#e7298a", "#e41a1c", "#377eb8", "#b15928", "#8dd3c7", "#bebada", "#b3de69", "#fccde5" ] 
+},
+"Intermediate": {
+ "Drug": {
+ "Amikacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [ 33.33333, 33.33333, 33.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Pediatric General" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Bronchials" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Amoxycillin clavulanate": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Sputum" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Ampicillin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "INT: Wound" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Cefepime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "65 to 84 Years", "85 and Over" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Ceftazidime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [       50,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Pediatric General" ],
+"percentage": [       50,       50 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Imipenem": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "Respiratory: Bronchials" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+},
+"Piperacillin tazobactam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 33.33333, 66.66667 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 33.33333, 33.33333, 33.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Pediatric ICU" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [ 21.42857, 14.28571, 7.142857, 14.28571, 14.28571, 7.142857, 21.42857 ],
+"weight": 0.06222222,
+"backgroundColor": [ "#a6cee3", "#1f78b4", "#b2df8a", "#fb9a99", "#fdbf6f", "#b15928", "#b3de69" ] 
+},
+"Resistant": {
+ "Drug": {
+ "Amoxycillin clavulanate": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 53.84615, 46.15385 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 7.692308, 15.38462, 15.38462, 46.15385, 15.38462 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 15.38462, 46.15385, 15.38462, 7.692308, 7.692308, 7.692308 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "INT: Wound", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 7.692308, 53.84615, 7.692308, 15.38462, 7.692308, 7.692308 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [ 76.92308, 7.692308, 15.38462 ] 
+} 
+},
+"Ampicillin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "13 to 18 Years", "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 8.333333, 16.66667, 16.66667, 41.66667, 16.66667 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 16.66667, 41.66667, 16.66667, 8.333333, 8.333333, 8.333333 ] 
+},
+"Source": {
+ "Source": [ "GU: Kidneys", "GU: Urine", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 8.333333, 58.33333, 16.66667, 8.333333, 8.333333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       75, 8.333333, 16.66667 ] 
+} 
+},
+"Aztreonam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 44.44444, 55.55556 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 22.22222, 22.22222, 44.44444, 11.11111 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [ 44.44444, 22.22222, 11.11111, 11.11111, 11.11111 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [ 55.55556, 22.22222, 11.11111, 11.11111 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [ 88.88889, 11.11111 ] 
+} 
+},
+"Cefepime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "3 to 12 Years", "65 to 84 Years" ],
+"percentage": [       25,       25,       50 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "None Given", "Pediatric General" ],
+"percentage": [       50,       25,       25 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Bronchials" ],
+"percentage": [       50,       50 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [       75,       25 ] 
+} 
+},
+"Ceftaroline": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [       20,       20,       40,       20 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU", "None Given", "Pediatric General", "Pediatric ICU" ],
+"percentage": [       10,       40,       20,       10,       10,       10 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [       60,       20,       10,       10 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given", "Outpatient" ],
+"percentage": [       80,       10,       10 ] 
+} 
+},
+"Ceftazidime": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 33.33333, 33.33333, 33.33333 ] 
+},
+"Speciality": {
+ "Speciality": [ "Emergency Room", "Medicine General", "Medicine ICU" ],
+"percentage": [ 16.66667,       50, 33.33333 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Bronchials", "Respiratory: Endotracheal aspirate", "Respiratory: Sputum" ],
+"percentage": [       50, 16.66667, 16.66667, 16.66667 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "Outpatient" ],
+"percentage": [ 83.33333, 16.66667 ] 
+} 
+},
+"Levofloxacin": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Female", "Male" ],
+"percentage": [       50,       50 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "19 to 64 Years", "3 to 12 Years", "65 to 84 Years", "85 and Over" ],
+"percentage": [ 16.66667, 16.66667,       50, 16.66667 ] 
+},
+"Speciality": {
+ "Speciality": [ "Medicine General", "None Given", "Pediatric General" ],
+"percentage": [ 66.66667, 16.66667, 16.66667 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine", "Respiratory: Bronchials" ],
+"percentage": [ 66.66667, 33.33333 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient", "None Given" ],
+"percentage": [ 83.33333, 16.66667 ] 
+} 
+},
+"Piperacillin tazobactam": {
+ "State": {
+ "State": [ "N/A" ],
+"percentage": [      100 ] 
+},
+"Gender": {
+ "Gender": [ "Male" ],
+"percentage": [      100 ] 
+},
+"Age.Group": {
+ "Age.Group": [ "3 to 12 Years" ],
+"percentage": [      100 ] 
+},
+"Speciality": {
+ "Speciality": [ "Pediatric General" ],
+"percentage": [      100 ] 
+},
+"Source": {
+ "Source": [ "GU: Urine" ],
+"percentage": [      100 ] 
+},
+"In...Out.Patient": {
+ "In...Out.Patient": [ "Inpatient" ],
+"percentage": [      100 ] 
+} 
+} 
+},
+"percentage": [ 21.31148, 19.67213,  14.7541, 6.557377, 16.39344, 9.836066, 9.836066, 1.639344 ],
+"weight": 0.2711111,
+"backgroundColor": [ "#1f78b4", "#b2df8a", "#ccebc5", "#fb9a99", "#d95f02", "#fdbf6f", "#8dd3c7", "#b3de69" ] 
+} 
+}
