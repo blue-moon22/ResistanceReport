@@ -1,5 +1,9 @@
 # Resistance Atlas
 
+### Update: 14th March
+
+The website is now available to view [online](http://resistanceatlas.org/)
+
 ### Instructions
 
 Clone repository
